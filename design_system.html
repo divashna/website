@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Divashna</title>
+  <!-- favicon -->
+  <link rel="icon" type="image" href="images/favicon.ico">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="icons/css/all.css">
+  <!-- Font Awesome animations -->
+  <link rel="stylesheet" href="font-awesome-animation.min.css">
+  <!-- Required Bootstrap CSS files from Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="dark-mode.css">
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar fixed-top navbar-expand-md bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="navbar-brand-img" src="images/divashna.svg"
+          alt="divashna"></a>
+      <!--- menu bars -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="iconify faa-horizontal animated-hover slow" data-icon="jam:menu" data-inline="false"></span>
+      </button>
+      <!-- nav links -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#projects" onclick="smoothScroll()">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main content -->
+  <main class="container">
+    <!-- heading and description -->
+    <div class=" container-heading">
+      <div class="my-auto mx-auto">
+        <div>
+          <h1 class="h1" role="heading" aria-level="1">Design System</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="h2" role="heading" aria-level="2">Creating a shared design library for stronger identity and accessibility</h2>
+    </div>
+    <!-- context and role -->
+    <section class="bg-dark p-5">
+      <div class="row mx-auto">
+        <div class="col-md-8">
+          <div class="mb-4">
+            <h5 class="h5">Context</h5>
+            <p>A self-initiated design project to review and rebuild the Stan Design System based on brand inconsistencies noticed by myself, other product designers and engineers.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-4">
+            <h5 class="h5">My Role</h5>
+            <p>
+              <li>Lead Product Designer</li>
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <h5 class="h5">Status &nbsp;<span class="badge badge-info">ONGOING</span>
+          </h5>
+          <p>The new Stan Design System consists of a living file in which all designers are encouraged to contribute to the growth of Stan's brand-new UI kit as needed.</p>
+        </div>
+      </div>
+    </section>
+    <!-- objective -->
+    <div class="container">
+      <h3 class="h3-heading" role="heading" aria-level="3">Objective</h3>
+      <p>The business problem that was assigned was simple: Simplify the reactivation process for returning users to
+        reduce drop-off rates during reactivation, thereby increasing retention. From a user perspective, the aim was to
+        reduce the complexity and frustration associated with re-enabling a Stan subscription.</p>
+    </div>
+    <!-- problems -->
+    <div class="container">
+      <h3 class="h3-heading" role="heading" aria-level="3">Problems</h3>
+      <p>To better understand the issues surrounding reactivation, I conducted an audit of the existing user flow. Three
+        key issues emerged:</p>
+      <h5 class="h5 mt-4" role="heading" aria-level="5">1. Cluttered UI</h5>
+      <li>Incorrect use of white space ➝ cluttered interface</li>
+      <li>Unclear visual hierarchy ➝ key information not focal</li>
+      <li>Design inconsistencies ➝ prevents a logical flow of information</li>
+      <!-- issue 2 -->
+      <h5 class="h5 mt-4" role="heading" aria-level="5">2. Use of CTAs</h5>
+      <li>Varied positioning of CTAs ➝ users make unintended calls</li>
+      <li>Long, wordy CTAs ➝ adds to UI clutter</li>
+      <li>Disabled appearance of secondary CTA ➝ users discouraged from undoing actions; instead abandon the
+        reactivation process</li>
+      <li><em>Start Watching</em> CTA ➝ misleading</li>
+      <!-- issue 3 -->
+      <h5 class="h5 mt-4" role="heading" aria-level="5">3. Mobile experience</h5>
+      <li>Long and cluttered UI on mobile ➝ cognitive overload</li>
+      <li>Requires extensive scrolling by the user</li>
+    </div>
+    <!-- opportunities -->
+    <div class="container">
+      <h3 class="h3-heading" role="heading" aria-level="3">Opportunities</h3>
+      <p>These insights revealed numerous opportunities for improvement which were discussed with key stakeholders
+        before being concepted and implemented. The changes that would be addressed in the redesigns included:</p>
+      <section class="bg-transparent">
+        <div class="row mx-auto">
+          <div class="col-md-4">
+            <div class="victory mx-auto">
+              <img src="images/icons/copy_icon.png" alt="">
+              <p>Reducing cognitive load by condensing copy, thus reducing the time and complexity involved with
+                reactivating one's account</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="victory mx-auto">
+              <img src="images/icons/mobile_icon.png" alt="">
+              <p>Focussing on a mobile-first experience, as they account for a large volume of reactivations</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="victory mx-auto">
+              <img src="images/icons/recommendations_icon.png" alt="">
+              <p>Providing clearer feedback and offering a consistent experience for users with a Stan Sport add-on</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+    <!-- proposing a new flow -->
+    <div class="container">
+      <h3 class="h3-heading" role="heading" aria-level="3">Proposing a New Flow</h3>
+      <p>The next step was to visualise a new and improved reactivation user flow. I started by mapping the existing
+        flow to understand the key steps involved in the reactivation process.</p>
+      <a href="images/reactivation/reactivation_old_flow.png" target="_blank" rel="noopener"><img class="mt-4 long-img"
+          src="images/reactivation/reactivation_old_flow.png"
+          alt="User logs in. From login, there are two paths a user can take: update payment or reactivate account. If a user updates their payment method, they are then directed to reactivation. For users who log in without a Stan Sport add-on, they are taken to a Stan Sport upsell modal, whereas users who previously purchased the subscription can skip this step. From there, users are shown limited time offers before they can start watching."></a>
+      <p>Immediately, I was able visualise how the reactivation flow could be simplified to ensure users who previously
+        purchased a Stan Sport add-on and those without would encounter a single, consistent reactivation experience. I
+        was also able to identify steps that could be combined to deliver a smooth and efficient user experience for
+        customers. With this in mind, I crafted the new user flow.</p>
+      <a href="images/reactivation/reactivation_new_flow.png" target="_blank" rel="noopener"><img class="mt-4 long-img"
+          src="images/reactivation/reactivation_new_flow.png"
+          alt="User logs in. User is then directed to reactivate their account. Once complete, they are directed to a welcome and bonus offers before they start watching."></a>
+      <p>The new user flow I proposed simplified the reactivation process for all returning Stan customers. A clean,
+        consistent and quicker reactivation flow would allow users to achieve their objective- to reactivate their plan-
+        with minimal distraction and, therefore, encourage them to complete the process. Payment updates had also been
+        integrated in the reactivation step for simplicity and ease of use.</p>
+    </div>
+    <!-- designs -->
+    <div class="container">
+      <h3 class="h3-heading" role="heading" aria-level="3">Designs</h3>
+      <p>New designs for the reactivation flow followed. After multiple rounds of feedback from internal product
+        managers and my trusty design team, I finalised the designs. Once approved, I defined the specifications of each
+        design, which involved setting up new components in the UI library, and paired with a frontend engineer to bring
+        them to life.</p>
+      <a href="images/reactivation/reactivation_designs.png" target="_blank" rel="noopener"><img class="mt-4 long-img"
+          src="images/reactivation/reactivation_designs.png" alt="Before and after of the reactivation flow."></a>
+    </div>
+    <!-- testing the variants -->
+    <div class="container">
+      <h3 class="h3-heading" role="heading" aria-level="3">Testing the Variants</h3>
+      <p>It was time to put the new designs to test using multivariate testing software. Multivariate testing revealed that the new
+        designs were favoured over the existing interface. This, in turn, had a positive effect on retention, as users
+        were evidently more likely to follow through with a reactivation process that reduced the number of clicks
+        involved with reactivating an account while removing interface clutter.</p>
+    </div>
+    </div>
+    <!-- prototypes/ mockups -->
+    <div id="mockups" class="container carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mockups" data-slide-to="0" class="active"></li>
+        <li data-target="#mockups" data-slide-to="1"></li>
+        <li data-target="#mockups" data-slide-to="2"></li>
+        <li data-target="#mockups" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 final-img" src="images/reactivation/reactivation_screen1.jpg"
+            alt="Reactivation modal. Collapsed.">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 final-img" src="images/reactivation/reactivation_screen2.jpg"
+            alt="Reactivation modal with 'Change Plan' cards expanded.">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 final-img" src="images/reactivation/reactivation_screen3.jpg"
+            alt="Payment modal in the reactivation process.">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 final-img" src="images/reactivation/reactivation_screen4.jpg"
+            alt="Reactivation modal with error alert.">
+        </div>
+      </div>
+      <!-- carousel arrow controls -->
+      <a class="carousel-control-prev" href="#mockups" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#mockups" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- a successful outcome -->
+    <div class="container">
+      <h3 class="h3-heading" role="heading" aria-level="3">A Successful Outcome</h3>
+      <p>The new solution that had been designed and tested resulted in an uptick in
+        reactivation numbers, thereby meeting the business's objective of increasing reactivation while providing a
+        streamlined reactivation experience for customers. The new designs have been rolled out on web, ranging from a
+        compact mobile view to an extra-large desktop display.</p>
+    </div>
+
+    <!-- pagination -->
+    <section>
+      <nav aria-label="Project navigation">
+        <ul class="pagination justify-content-center m-5">
+          <li class="page-item">
+            <a class="page-link" href="charitable_giving.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>&nbsp;Previous&nbsp;
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="covid_connect.html" aria-label="Next">&nbsp;Next&nbsp;
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <p class="text-center text-dark">divashna<sup>®</sup><br><sup>2022</sup><sub></sub></p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- to load Iconify icons -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <!-- js files -->
+  <script src="general.js"></script>
+  <!-- required Bootstrap JS files from Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- template JS files -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Divashna</title>
+  <!-- favicon -->
+  <link rel="icon" type="image" href="images/favicon.ico">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="icons/css/all.css">
+  <!-- Font Awesome animations -->
+  <link rel="stylesheet" href="font-awesome-animation.min.css">
+  <!-- Required Bootstrap CSS files from Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="dark-mode.css">
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar fixed-top navbar-expand-md bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="navbar-brand-img" src="images/divashna.svg"
+          alt="divashna"></a>
+      <!--- menu bars -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="iconify faa-horizontal animated-hover slow" data-icon="jam:menu" data-inline="false"></span>
+      </button>
+      <!-- nav links -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#projects" onclick="smoothScroll()">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main content -->
+  <main>
+    <!-- avatar image -->
+    <div class="container">
+      <img class="avatar mt-5" src="images/about/Avatar.png" alt="">
+    </div>
+    <!-- heading, philosophy and personal values -->
+    <section class="container mt-4 p-4">
+      <h1 class="h1 text-center pb-2" role="heading" aria-level="1">About Me</h1>
+      <p class="mt-4">I design functional and entertaining experiences for mobile, web, TV and beyond.</p>
+      <h6><br />Philosophy</h6>
+      <p>I believe the best user experiences are the ones that go unnoticed- the uninterrupted user journeys that are seamless to the human eye. When concepting new product features, reviewing existing user flows or redesigning components of a website, I work tenaciously to ensure users are presented with solutions that are simple, elegant and clear.</p>
+      <h6><br />Values</h6>
+      <p>I'm a big believer of continuous learning and improvement. I aim to learn something new every day, whether through reading up on developments that affect the world around me, scouring the internet for design inspiration, breaking down the user flows of some of the world's most popular sites or collaborating with developers to better understand technical constraints in order to become a more informed and attentive designer.</p>
+    </section>
+    <!-- kind words and testimonials -->
+    <section class="bg-dark p-4">
+      <h4 role="heading" aria-level="4" class="mx-auto pb-4">Kind Words</h4>
+      <div class="pl-5 pr-5 container">
+        <p class="card-subtitle">"Divashna's perseverance and her ability to work autonomously is a very strong trait for a Product Designer. When we have been short-staffed and I have been unable to give clear instruction or guidance, she manages to always pick up tasks and complete them on her own with due diligence. There is no doubt she goes above and beyond to help others at Stan."</p>
+        <p class="card-text text-left pb-4">Linh, Product Design Lead</p>
+      </div>
+      <div class="pl-5 pr-5 container">
+        <p class="card-subtitle">"Divashna's designs are elegant, and represent the brand's vision and feel perfectly. She is an extremely talented and hardworking designer who is always open to feedback and is willing to share her knowledge with others. Her contributions are appreciated and are of high quality. She is a valuable asset to the team and her work and effort are impactful in creating the Stan product."</p>
+        <p class="card-text text-left pb-4">Jasmine, Automation Tester</p>
+      </div>
+      <div class="pl-5 pr-5 container">
+        <p class="card-subtitle">"Divashna is an absolute pleasure to work with and very open to collaboration. She is engaging and shows pride in her work, which consequently increases the morale of the team. Her designs clearly demonstrates her extensive knowledge of UX/UI and the product. She is overall an invaluable team member."</p>
+        <p class="card-text text-left pb-4">Rupali, Product Tester</p>
+      </div>
+    </section>
+    <!-- areas of expertise and tools used-->
+    <section class="container p-4">
+      <h6><br />Skills</h6>
+      <li>High and low fidelity prototyping</li>
+      <li>A/B testing</li>
+      <li>Affinity mapping</li>
+      <li>User journey mapping</li>
+      <li>User interviews and usability tests</li>
+      <li>Heuristic evaluations</li>
+      <!-- tools and icons -->
+      <h6 class="mt-5">Toolkit</h6>
+      <img class="small-img" src="images/about/figma_icon.png" alt="Figma" data-toggle="tooltip" title="Figma" />
+      <img class="small-img" src="images/about/jira_icon.png" alt="Jira" data-toggle="tooltip" title="Jira" />
+      <img class="small-img" src="images/about/photoshop_icon.png" alt="Adobe Photoshop" data-toggle="tooltip"
+        title="Adobe Photoshop" />
+      <img class="small-img" src="images/about/illustrator_icon.png" alt="Adobe Illustrator" data-toggle="tooltip"
+        title="Adobe Illustrator" />
+      <img class="small-img" src="images/about/trello_icon.png" alt="Trello" data-toggle="tooltip" title="Trello" />
+      <img class="small-img" src="images/about/confluence_icon.png" alt="Confluence" data-toggle="tooltip"
+        title="Confluence" />
+      <img class="small-img" src="images/about/protopie_icon.png" alt="ProtoPie" data-toggle="tooltip"
+        title="ProtoPie" />
+      <img class="small-img" src="images/about/miro_icon.png" alt="Miro" data-toggle="tooltip" title="Miro" />
+      <h5 class="text-center mt-5 pt-5 p">Want to know more?</h5>
+      <a href="mailto:divashna7@gmail.com?subject=Hello ☻" target="_blank" class="btn btn-primary">Let's talk</a>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <p class="text-center text-dark">divashna<sup>®</sup><br><sup>2023</sup><sub></sub></p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- to load Iconify icons -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <!-- js files -->
+  <script src="general.js"></script>
+  <!-- required Bootstrap JS files from Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- template JS files -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

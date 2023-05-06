@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Divashna</title>
+  <!-- favicon -->
+  <link rel="icon" type="image" href="images/favicon.ico">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="icons/css/all.css">
+  <!-- Font Awesome animations -->
+  <link rel="stylesheet" href="font-awesome-animation.min.css">
+  <!-- Required Bootstrap CSS files from Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="dark-mode.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="navbar-brand-img" src="images/divashna.svg"
+          alt="divashna"></a>
+      <!--- menu bars -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="iconify" data-icon="jam:menu" data-inline="false"></span>
+      </button>
+      <!-- nav links -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" onclick="smoothScroll()">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main heading jumbotron -->
+  <main>
+    <div class="jumbotron jumbotron-fluid d-flex align-items-center">
+      <div class="container text-center">
+        <h1 class="mainHeading mt-5" role="heading" aria-level="1">Hi, I'm Divashna </h1>
+        <h2 class="m-5 pt-5 pb-3" role="heading" aria-level="2" id="headline">I'm a Product Designer based in Sydney,
+          currently designing immersive streaming experiences at <a target="_blank" href="https://www.stan.com.au/"
+            style="color: white; text-decoration: underline;">Stan.</a>
+        </h2>
+        <!-- Chevron Down animated icon
+          <a href="#skill1"><span class="iconify mt-1 mb-1 faa-bounce animated-hover" data-icon="bx:bxs-chevron-down-circle" data-inline="false" onclick="smoothScroll()"></span></a> -->
+      </div>
+    </div>
+
+    <!-- my achievements with icons -->
+    <section class="bg-dark p-5">
+      <div>
+        <h4 role="heading" aria-level="4" class="mx-auto pb-4">Here's what I've accomplished in recent months:</h4>
+      </div>
+      <div class="row mx-auto">
+        <div class="col-md-4">
+          <div class="mb-4 victory mx-auto">
+            <img src="images/index/growth_icon.png" alt="">
+            <p class="p">Increase Stan signups and reactivations via multivariate testing</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-4 victory mx-auto">
+            <img src="images/index/wit_icon.png" alt="">
+            <p class="p">Establish <i>Women in Tech</i> peer network and co-host inaugural workshop</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-4 victory mx-auto">
+            <img src="images/index/ui_icon.png" alt="">
+            <p class="p">Review and rebuild Stan UI kit with a renewed focus on accessibility</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container mt-4" id="projects">
+      <!-- Reactivation -->
+      <div class="card card-projects">
+        <a href="reactivation.html" class="stretched-link"></a>
+        <img class="card-img-top card-project-img" alt="Green Bean. UI Design" src="images/covers/Reactivation Tile.jpg"
+          id="cover1">
+      </div>
+      <!-- Content Merchandising Project -->
+      <div class="card card-projects">
+        <a href="content-merch.html" class="stretched-link"></a>
+        <img class="card-img-top card-project-img" alt="Content Merchandising. Product Design."
+          src="images/covers/Content Merchandising Tile.jpg" id="cover2">
+        <!-- <div class="card-body">
+            <h5 class="card-title">COVID Connect</h5>
+            <p class="card-text">Product + UX Design</p>
+          </div> -->
+      </div>
+      <!-- COVID Connect Project -->
+      <div class="card card-projects">
+        <a href="covid_connect.html" class="stretched-link"></a>
+        <img class="card-img-top card-project-img" alt="COVID Connect. Product Design"
+          src="images/covers/COVID Connect Tile.jpg" id="cover3">
+      </div>
+    </section>
+
+    <!-- email -->
+    <section class="container">
+      <a href="mailto:divashna7@gmail.com?subject=Hello ☺" target="_blank" class="btn btn-primary">Say hello &nbsp;<span
+          class="iconify faa-shake animated" data-icon="ph-hand-waving" data-inline="false" style="color: #0D001D;"
+          data-flip="horizontal" data-length="1rem" data-width="1.3rem"></span></a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <p class="text-center text-dark">divashna<sup>®</sup><br><sup>2023</sup><sub></sub></p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- to load Iconify icons -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <!-- js files -->
+  <script src="general.js"></script>
+  <!-- required Bootstrap JS files from Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- template JS files -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
